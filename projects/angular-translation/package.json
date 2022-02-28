@@ -1,6 +1,6 @@
 {
   "name": "@premui/angular-translation",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "This project is part of the PremUI Angular library and contains all the Angular services and pipes needed to expand the Premui translation library for Angular.",
   "author": {
     "name": "Nyffels IT",

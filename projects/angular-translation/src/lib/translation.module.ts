@@ -6,4 +6,4 @@ import { PremuiTranslationPipe } from './pipes/translation.pipe';
   imports: [],
   exports: [PremuiTranslationPipe],
 })
-export class PremuiConvertionModule {}
+export class PremuiTranslationModule {}
