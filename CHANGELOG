@@ -1,13 +1,12 @@
-# Angular Translation
-All the changes for the Angular extension for the Premui translation module. 
+# Angular Convertion
+All the changes for the Angular extension for the Premui convertion module. 
 
 [0.1.1] - 2022-02-28
 
 # Fixed
-- Export issue.
+- Small bugfix.
 
-[0.1.0] - 2022-02-25
+[0.1.0] - 2022-02-28
 
 # Added
-- Translation service. 
-- Translation pipe.
+- Convertion service. 

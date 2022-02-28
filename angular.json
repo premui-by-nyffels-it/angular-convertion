@@ -3,23 +3,23 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "angular-translation": {
+    "angular-convertion": {
       "projectType": "library",
-      "root": "projects/angular-translation",
-      "sourceRoot": "projects/angular-translation/src",
+      "root": "projects/angular-convertion",
+      "sourceRoot": "projects/angular-convertion/src",
       "prefix": "lib",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:ng-packagr",
           "options": {
-            "project": "projects/angular-translation/ng-package.json"
+            "project": "projects/angular-convertion/ng-package.json"
           },
           "configurations": {
             "production": {
-              "tsConfig": "projects/angular-translation/tsconfig.lib.prod.json"
+              "tsConfig": "projects/angular-convertion/tsconfig.lib.prod.json"
             },
             "development": {
-              "tsConfig": "projects/angular-translation/tsconfig.lib.json"
+              "tsConfig": "projects/angular-convertion/tsconfig.lib.json"
             }
           },
           "defaultConfiguration": "production"
@@ -27,13 +27,13 @@
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "main": "projects/angular-translation/src/test.ts",
-            "tsConfig": "projects/angular-translation/tsconfig.spec.json",
-            "karmaConfig": "projects/angular-translation/karma.conf.js"
+            "main": "projects/angular-convertion/src/test.ts",
+            "tsConfig": "projects/angular-convertion/tsconfig.spec.json",
+            "karmaConfig": "projects/angular-convertion/karma.conf.js"
           }
         }
       }
     }
   },
-  "defaultProject": "angular-translation"
+  "defaultProject": "angular-convertion"
 }

@@ -1,13 +1,13 @@
 import { TestBed } from '@angular/core/testing';
 
-import { PremuiTranslationService } from './translation.service';
+import { PremuiConvertionService } from './convertion.service';
 
 describe('PremuiTranslationService', () => {
-  let service: PremuiTranslationService;
+  let service: PremuiConvertionService;
 
   beforeEach(() => {
     TestBed.configureTestingModule({});
-    service = TestBed.inject(PremuiTranslationService);
+    service = TestBed.inject(PremuiConvertionService);
   });
 
   it('should be created', () => {

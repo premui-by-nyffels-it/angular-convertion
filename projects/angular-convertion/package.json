@@ -1,14 +1,14 @@
 {
-  "name": "@premui/angular-translation",
+  "name": "@premui/ng-convertion",
   "version": "0.1.1",
-  "description": "This project is part of the PremUI Angular library and contains all the Angular services and pipes needed to expand the Premui translation library for Angular.",
+  "description": "This project is part of the PremUI Angular library and contains all the Angular services and pipes needed to expand the Premui convertion library for Angular.",
   "author": {
     "name": "Nyffels IT",
     "email": "chesney@nyffels-it.be",
     "url": "https://nyffels-it.be"
   },
   "bugs": {
-    "url": "https://gitlab.com/nyffels-it/premui-by-nyffels-it/angular-language/-/issues"
+    "url": ""
   },
   "license": "UNLICENSED",
   "contributors": [
@@ -19,7 +19,7 @@
     }
   ],
   "repository": {
-    "url": "https://gitlab.com/nyffels-it/premui-by-nyffels-it/angular-language",
+    "url": "",
     "type": "GIT"
   },
   "private": false,
@@ -27,7 +27,7 @@
   "peerDependencies": {
     "@angular/common": "^13.2.0",
     "@angular/core": "^13.2.0",
-    "@premui/translation": "^0.1.2"
+    "@premui/convertion": "^0.1.0"
   },
   "dependencies": {
     "tslib": "^2.3.0"
