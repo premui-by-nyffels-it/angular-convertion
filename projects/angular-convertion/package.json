@@ -1,6 +1,6 @@
 {
   "name": "@premui/ng-convertion",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "This project is part of the PremUI Angular library and contains all the Angular services and pipes needed to expand the Premui convertion library for Angular.",
   "author": {
     "name": "Nyffels IT",

@@ -6,4 +6,4 @@ import { ConvertDateToDatePipe, ConvertDateToDateTimePipe, ConvertNumberToMoneyP
   imports: [],
   exports: [ConvertDateToDatePipe, ConvertDateToDateTimePipe, ConvertNumberToNumberPipe, ConvertNumberToMoneyPipe],
 })
-export class PremuiTranslationModule {}
+export class PremuiConvertionModule {}
